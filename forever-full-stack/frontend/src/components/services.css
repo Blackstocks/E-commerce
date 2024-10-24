@@ -1,0 +1,50 @@
+.services_area .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .single_product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Increased width to take up more space */
+    height: 230px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  
+  .single_product .product_thumb {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .single_product img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product_content_service {
+    text-align: center;
+  }
+  
+  .service_name h3 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .single_product {
+      width: calc(50% - 10px); /* Still take half the width on medium screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .single_product {
+      width: 100%; /* Full width on small screens */
+    }
+  }
+  

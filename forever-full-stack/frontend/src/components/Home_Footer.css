@@ -1,0 +1,44 @@
+.featured_categories {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center items horizontally */
+  padding: 40px 20px; /* Add some padding */
+  background-color: #f9f9f9; /* Optional background color */
+}
+
+.featured_container {
+  display: flex;
+  flex-direction: column; /* Ensure that carousel is a column */
+  align-items: center; /* Center the carousel */
+}
+
+.featured_carousel {
+  display: flex; /* Use flexbox for the carousel items */
+  justify-content: space-around; /* Space items evenly */
+  align-items: flex-start; /* Align items at the start */
+  width: 100%; /* Full width of the container */
+}
+
+.single_items {
+  display: flex; /* Allow single items to be flex containers */
+  flex-direction: column; /* Stack content vertically */
+  align-items: center; /* Center the content */
+  text-align: center; /* Center the text */
+  margin: 0 10px; /* Add horizontal margin between items */
+}
+
+.single_featured {
+  display: flex; /* Use flexbox for featured items */
+  flex-direction: column; /* Stack image and content vertically */
+  align-items: center; /* Center items */
+  width: 100%; /* Allow single featured items to take full width */
+}
+
+.featured_thumb {
+  width: 60px; /* Set a fixed width for icons/images */
+  height: 60px; /* Set a fixed height for icons/images */
+  display: flex; /* Center the icon/image */
+  justify-content: center;
+  align-items: center;
+}
